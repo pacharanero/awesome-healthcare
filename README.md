@@ -23,11 +23,12 @@ Curated list of awesome open source healthcare software, libraries, tools and re
 - [Datasets](#datasets)
 - [Enterprise Master Patient Index](#empi)
 - [Machine Learning](#machine-learning)
+- [Compliance](#compliance)
 
 ### EHR
   * [Bahmni](http://www.bahmni.org/) - Hospital system.
   * [Cottage Med](http://www.cottagemed.org/cottage-med) - Electronic Medical Record software designed by physicians.
-  * [EHRServers](http://cabolabs.com/en/projects) - The openEHR clinical data repository.
+  * [EHRServer](https://github.com/ppazos/cabolabs-ehrserver) - CaboLabs EHRServer
   * [GNU Health](http://health.gnu.org/) - Electronic Medical Record, Hospital Management, and Health Information System.
   * [GNUmed](http://wiki.gnumed.de/bin/view/Gnumed) - Electronic Medical Record software.
   * [EHRServer](https://github.com/ppazos/cabolabs-ehrserver) - Generic, minimal, standards-based, service-oriented, openEHR clinical data storage.
@@ -45,7 +46,7 @@ Curated list of awesome open source healthcare software, libraries, tools and re
   * [Open Hospital](https://sourceforge.net/projects/openhospital/) - Electronic Medical Record software for underprivileged rural hospitals.
   * [openMAXIMS](https://github.com/IMS-MAXIMS/openMAXIMS) - Full Patient Administration System designed for the NHS.
   * [OpenMRS](http://openmrs.org/) - Enterprise Electronic Medical Record System platform.
-  * [OSCAR EMR](https://oscar-emr.com/) - Electronic Medical Record software.
+  * [OSCAR EMR](https://bitbucket.org/oscaremr/oscar) - OSCAR McMaster Project
   * [Ripple](http://rippleosi.org/) -  NHS funded community led initiative towards an integrated Digital Care Record Platform.
   * [VistA](https://www.osehra.org/content/osehra-vista) - Health Information Technology System.
 
@@ -55,9 +56,12 @@ Curated list of awesome open source healthcare software, libraries, tools and re
   * [Open mHealth](http://www.openmhealth.org) - Open Standard For Mobile Health Data.
   * [SMART on FHIR](http://docs.smarthealthit.org/) - Open standards based technology platform.
   * [StandardHealthRecord](http://standardhealthrecord.org/) - Open specification for health record format, aiming to be more precise than existing formats.
-  * [Continuity of Care Document](https://corepointhealth.com/resource-center/hl7-resources/ccd) - Continuity of Care Document overview.
-  * [Continuity of Care Record](https://corepointhealth.com/resource-center/white-papers/understanding-continuity-care-record) - Understanding the Continuity of Care Record.
-
+  * [Continuity of Care Document](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=7) - Continuity of Care Document specifications (free account required).
+  * [Continuity of Care Record](http://hitsp.org/ConstructSet_Details.aspx?&PrefixAlpha=4&PrefixNumeric=32) - Specifications for the older form of CCD - sometimes called a "C32".
+  * [HL7 Version 2](http://www.hl7.org/implement/standards/product_brief.cfm?product_id=185) - Specifications for all versions of HL7v2 (free account required).
+  * [OHDSI OMOP Common Data Model](https://www.ohdsi.org/data-standardization/the-common-data-model/) - Standardized data model for many healthcare concepts, awesome Github presence including scripts for many major relational databases 
+  * [Standard Health Record Collaborative](http://standardhealthrecord.org/shr/) - The Standard Health Record (SHR) provides a high quality, computable source of patient information by establishing a single target for health data standardization.
+  
 ### Prescribing
   * [OpenEP](https://github.com/ehrscape/examples/tree/master/openep) - Suite of medicines management apps that improve the safety and efficiency of prescribing and medicines management.
 
@@ -66,9 +70,10 @@ Curated list of awesome open source healthcare software, libraries, tools and re
 
 ### Imaging
   * [3D Slicer](https://www.slicer.org) - Cross-platform application for analyzing, visualizing and understanding medical image data.
-  * [Cornerstome](https://github.com/cornerstonejs/cornerstone) - An open source project with a goal to deliver a complete web based medical imaging platform.
+  * [Cornerstone](https://github.com/cornerstonejs/cornerstone) - An open source project with a goal to deliver a complete web based medical imaging platform.
   * [dcm4che](http://www.dcm4che.org/) - Clinical Image and Object Management.
   * [Drishti](http://sf.anu.edu.au/Vizlab/drishti/) - Tomography and electron-microscopy data visualizer aimed for scientists and lay people.
+  * [DICOM Web Viewer](https://ivmartel.github.io/dwv/) - JavaScript/HTML5-based DICOM viewer with standard tools and a focus on supporting various screen sizes.
   * [Endrov](http://www.endrov.net/) - Image and data viewer software aimed for complex spatio-temporal image data, mainly obtained from microscopes in biological research.
   * [GIMIAS](http://www.gimias.org/) - Extensible image computing and simulation software with an emphasis on specific workflows.
   * [Horos](https://www.horosproject.org/) - Medical image viewer.
@@ -86,8 +91,9 @@ Curated list of awesome open source healthcare software, libraries, tools and re
   * [OpenMolar](http://openmolar.com/) - Dental Practice Management Software. 
 
 ### Laboratory
-  * [Bika](https://www.bikalims.org/) - LIMS.
+  * [Bika](https://www.bikalims.org/) - LIMS. - Superseded by SENAITE (see below)
   * [OpenELIS](https://sites.google.com/site/openelisglobal/) - Laboratory Information System for Global Health.
+  * [SENAITE](https://www.senaite.com) - Laboratory Information Management System.
 
 ### Frameworks
   * [API Server](https://github.com/smart-on-fhir/api-server) - FHIR Server to support patient and clinician-facing apps.
@@ -102,12 +108,17 @@ Curated list of awesome open source healthcare software, libraries, tools and re
   * [Swift-SMART](https://github.com/smart-on-fhir/Swift-SMART) - Swift SMART on FHIR framework for iOS and OS X.
 
 ### Libraries
+  * [DCMTK](https://dicom.offis.de/dcmtk.php.en) - DICOM Toolkit
+  * [Fellow Oak DICOM](https://github.com/fo-dicom/fo-dicom) - DICOM for .NET, .NET Core, Universal Windows, Android, iOS, Mono and Unity
   * [FHIR .NET API](https://github.com/ewoutkramer/fhir-net-api) - The official .NET API for HL7 FHIR.
   * [fhir.js](https://github.com/FHIR/fhir.js) - JavaScript client for FHIR.
+  * [FHIR protocol buffers](FHIR protocol buffers) - a Google implementation of protocol buffers for FHIR.
   * [HAPI FHIR](https://github.com/jamesagnew/hapi-fhir) - Java API for HL7 FHIR Clients and Servers.
+  * [Hearth](https://github.com/jembi/hearth) - A fast FHIR-compliant server focused on longitudinal data stores.
   * [Health data standards](https://github.com/projectcypress/health-data-standards) - Ruby library for generating and consuming various healthcare related formats. These include HITSP C32, QRDA Category I, and QRDA Category III.
   * [MITK](http://mitk.org/wiki/MITK) - The Medical Imaging Interaction Toolkit.
   * [Node HL7](https://github.com/MatthewVita/node-hl7-complete) - Node module that is bridged with the Java Hapi HL7 library.
+  * [Node-hl7-parser](https://github.com/RedoxEngine/redox-hl7-v2) - Open source version of Redox's HL7 v2 to schema-fied JSON parser.
   * [Python HL7](https://github.com/johnpaulett/python-hl7) - Simple library for parsing messages of HL7 version 2.x into Python objects.
   * [Ruby FHIR](https://github.com/fhir-crucible/fhir_client) - FHIR client implementation in Ruby.
   * [Ruby HL7](https://github.com/segfault/ruby-hl7) - Ruby HL7 library.
@@ -118,7 +129,8 @@ Curated list of awesome open source healthcare software, libraries, tools and re
 
 ### PHR
   * [Tidepool](https://github.com/tidepool-org) - Data platform to reduce the burden of Type 1 Diabetes.
-  * [HealthLocker](https://github.com/healthlocker/healthlocker) - open source, Elixir-based personal health record.
+  * [HealthLocker](https://github.com/healthlocker/healthlocker) - Elixir-based personal health record.
+  * [hGraph](http://www.hgraph.org) - A visual representation of a patient's health status in one picture.
 
 ### Research
   * [i2b2](https://www.i2b2.org) - Research data warehouse.
@@ -128,6 +140,7 @@ Curated list of awesome open source healthcare software, libraries, tools and re
 ### Integration
   * [Mirth Connect](https://www.mirth.com) - Cross-platform interface engine that enables bi-directional sending of HL7 messages between systems and applications.
   * [OpenHIM](http://openhim.org/) - Health information mediator.
+  * [Open Source Mirth Transforms](https://github.com/daticahealth/Mirth-Transforms) - Open source transforms to make Mirthconnect-based integrations easier.
 
 ### Hardware
   * [echOpen](http://echopen.org/) - Low-cost (affordable) echo-stethoscope.
@@ -159,3 +172,6 @@ Curated list of awesome open source healthcare software, libraries, tools and re
 ### Machine learning
   * [Computational Healthcare Library](http://www.computationalhealthcare.com/library) - A platform for analysis & development of machine learning models using large de-identified healthcare datasets. 
   * [Healthcare.ai](https://healthcare.ai) - Python and R tools for healthcare machine learning 
+
+### Compliance
+* [HIPAA Compliance Policies](https://github.com/catalyzeio/policies) - Make compliance as easy as possible for companies working with protected health information.
