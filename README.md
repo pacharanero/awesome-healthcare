@@ -51,6 +51,7 @@ Curated list of awesome open source healthcare software, libraries, tools and re
   * [openMAXIMS](https://github.com/IMS-MAXIMS/openMAXIMS) - Full Patient Administration System designed for the NHS.
   * [OpenMRS](http://openmrs.org/) - Enterprise Electronic Medical Record System platform.
   * [OSCAR EMR](https://bitbucket.org/oscaremr/oscar) - OSCAR McMaster Project
+  * [Primero IMS](https://www.primero.org/) - Child Protection Information System
   * [Ripple](http://rippleosi.org/) -  NHS funded community led initiative towards an integrated Digital Care Record Platform.
   * [VistA](https://www.osehra.org/content/osehra-vista) - Health Information Technology System.
 
